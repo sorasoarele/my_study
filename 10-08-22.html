@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>каскадность и специфичность</title>
+    <style>
+        /*button{
+            color:red
+        }
+        button{
+            color:blue
+        }*/
+        /*p{
+            color: green;
+        }
+        .red{
+            color: red;
+        }
+        #blue{
+            color: blue;
+        }*/
+        .red{
+            color:red
+        }
+        .blue{
+            color:blue
+        }
+    </style>
+</head>
+<body>
+<div class="red blue">текст</div>
+<div class="blue red">текст</div>
+   <!--<button>привет,я кнопка, у меня синий цвет</button>-->
+    <!--<p class="red"  id="blue">так какого же текста будет текст</p>-->
+</body>
+</html>

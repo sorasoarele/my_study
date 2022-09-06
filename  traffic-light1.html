@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="traffic-light.jpg">
+    <title>светофор</title>
+    <style>
+        body{
+            background-color: bisque; /*определяет цвет фона элемента http://htmlbook.ru/css/background-color */
+        }
+        *{
+            box-sizing: border-box;/*применяется для измерения алгоритма расчета ширины и высоты элемента http://htmlbook.ru/css/box-sizing */
+        }
+        .box {
+            width: 200px; /*здесь задаю ширину элемента http://htmlbook.ru/css/width*/
+            height: 400px; /* Здесь задаю высоту элемента http://htmlbook.ru/css/height */
+            background-color: black;
+            padding-top: 25px; /*устанавливает значение поля от верхнего края http://htmlbook.ru/css/padding-top */
+        }
+        .red,
+        .yellow,
+        .green {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%; /*устанавливает радиус скругления концов рамки http://htmlbook.ru/css/border-radius */
+            margin: auto; /*величина отступа от каждого края элемента http://htmlbook.ru/css/margin */
+            border: solid gray 2px; /*устанавливаю толщину, стиль и цвет границы вокруг элемента http://htmlbook.ru/css/border */
+            margin-bottom: 25px; /*устанавливает величину отступа от нижнего края элемента http://htmlbook.ru/css/margin-bottom */
+            box-shadow: inset 0 0 15px #ffffff; /* тень вокруг элемента http://htmlbook.ru/css/box-shadow */
+            background-color: rgb(69,68,68);
+            cursor: pointer; /* устанавливаю форму курсора, когда он находится в пределах элемента http://htmlbook.ru/css/cursor */
+        }
+        .red:hover {
+            background-color: red;
+        }
+        .yellow:hover{
+            background-color: yellow;
+        }
+        .green:hover {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="red"></div>
+        <div class="yellow"></div>
+        <div class="green"></div>
+    </div>
+</body>
+</html>

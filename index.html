@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/6c6845d755.js" crossorigin="anonymous"></script>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <title>главная страница</title>
+    <style>
+        .nav-theme {
+          background-color: #3d949e;
+        }
+        .text{
+            color: black;
+        }
+        .content{
+          padding:50px;
+        }
+        .col{
+          padding: 50px;
+          border-style: outset;
+          border-width: 5px;
+          border-color: #2297a4;
+          background-color: rgb(255, 240, 206);
+        }
+        .box{
+          padding-bottom: 50px;
+        }
+        .fon{
+            width: 100%;
+            height: 200px;
+            border: 3px solid #2297a4;
+            background: linear-gradient(90deg,transparent,rgb(248, 250, 250)),
+            url(slide-2.jpg);
+            text-align: center;
+            box-shadow: 0 0 20px;
+        }
+        .shadowtext{
+            text-shadow: 5px 5px 5px black;
+            color: aliceblue;   
+            margin-top: 15px;
+            margin-bottom: 15px;
+            font-size: 100%;
+            padding: 70px;
+        }
+        .p{
+          font-family: Verdana,"Trebuchet MS", Tahoma, sans-serif;
+        }
+        .blog-article::first-letter{
+          font-size:  200%;
+          color: rgb(116, 31, 31);
+        }
+        .news_block{
+          background-image: url(slide-2.jpg);
+          height: 20rem;
+          background-size: cover;
+          background-position: center;
+        }
+        .news_text{
+          max-width: 20rem;
+          height: auto;
+          padding: 0.5rem;
+          border: 1px solid blue;
+          margin: auto;
+          border-radius: 0.25rem;
+          background-color: rgba(26, 199, 107, 0.4);
+          box-shadow: 0 0 8px rgba(13, 118, 62, 0.4);
+        }
+        .body{
+          font-family: 'Open Sans', sans-serif;
+        }
+        .material-symbols-outlined {
+          font-family: 'Material Symbols Outlined';
+          font-weight: normal;
+          font-style: normal;
+          font-size: 36px;  /* Preferred icon size */
+          display: inline-block;
+          line-height: 1;
+          text-transform: none;
+          letter-spacing: normal;
+          word-wrap: normal;
+          white-space: nowrap;
+          direction: ltr;
+          color: aqua;
+        }
+        
+        .icon{
+          width: 100%;
+            height: 40px;
+            border: 3px solid #2297a4;
+            background: linear-gradient(90deg,transparent,rgb(46, 166, 166))
+        } 
+        /* .blog-icon{
+          background: -webkit-gradient(linear, left top, left bottom from(rgb(219,29,29)), to (rgb(242,141,17)));
+          background-color: transparent;
+          -webkit-background-clip: text;
+          background-clip: text;
+        } */
+    </style>
+  </head>
+  <body>
+    <!--Navbar start-->
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-dark nav-theme">
+        <a class="navbar-brand" href="/js-edukation/31.08.22.dz.html"><img src="img/logo.png" alt width="100px"/> </a>
+        <button 
+        class="navbar-toggler" 
+        type="button" 
+        data-toggle="collapse" 
+        data-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" 
+        aria-expanded="true" 
+        aria-label="Переключатель навигации"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/friends1.html">Главная <span class="sr-only">(текущая)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/10-08-22p4.html">bootstrap</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/100822p3d.html">flex&grid</a>
+              </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input 
+            class="form-control mr-sm-2" 
+            type="search" 
+            placeholder="Поиск" 
+            aria-label="Поиск">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <!--Navbarend-->
+<!--csrusel start-->
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/img/slide-2.jpg" class="d-block w-100" alt="слайд">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>золотые мысли, такие же как этот песок</h5>
+          <p> давайте просто представим,что мы не устали, поэтому не едем на море</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/img/slide-3.jpg" class="d-block w-100" alt="слайд">
+        <div class="carousel-caption d-none d-md-block text">
+          <h5>чистая мудрость,как это море</h5>
+          <p>не важно почему ты не едешь на море, важно что ты НЕ ЕДЕШЬ</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/img/slide-1.jpg" class="d-block w-100" alt="слайд">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>чисто прЕкол</h5>
+          <p>Это я катаюсь на своих эмоциональных всплесках</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Предыдущий</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Следующий</span>
+    </a>
+  </div>
+  <!--carusel end-->
+  <!-- блог sтart -->
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-md-4 border p-5">
+        <div class="card py-5 bg-info text-center"><a href="/ traffic-light1.html" class="blog-article"><i class="fa-solid fa-traffic-light fa-4x blog-icon"></i></a></div>
+      </div>
+      <div class="col-md-4 border p-5">
+        <div class="card py-5 bg-info text-center"><a href="/js-edukation/29.08.22.dz.html" class="blog-article"><i class="fa-solid fa-robot fa-4x blog-icon"></i></a></div>
+      </div>
+      <div class="col-md-4 border p-5">
+        <div class="card py-5 bg-info text-center"><a href="/coffe-machin.html" class="blog-article"><i class="fa-solid fa-mug-hot fa-4x blog-icon"></i></a></div>
+      </div>  
+    </div>
+  </div>
+  <!-- блог end -->
+  <!-- news block start -->
+  <div class="container-fluid news_block my-5 d-flex">
+    <div class="news_text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod adipisci voluptatibus neque, odio soluta fuga beatae fugiat iusto deleniti dolores facere consectetur quaerat earum recusandae molestiae cum culpa, inventore ullam.
+    </div>
+  </div>
+  <!-- news block end -->
+  <!-- три колонки start -->
+  <div class="content text-justify">
+   <div class="row align-items-justify">
+    <div class="col">
+      Очень интересная история о том и о сем: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt nulla quisquam, blanditiis cum nostrum suscipit! Nisi excepturi perferendis, reiciendis exercitationem velit nobis itaque, dolorum quidem iste voluptatum, ratione dolorem. Consequatur!
+      Voluptas delectus quibusdam earum voluptates eligendi maiores necessitatibus suscipit eveniet molestiae dolor vero, in similique quam incidunt, debitis error minus ipsam id eaque impedit veritatis tenetur? Ipsa quia repellendus modi?
+      Perspiciatis laboriosam amet aut iste exercitationem ipsum quaerat quae quo reprehenderit, deleniti corrupti unde quam voluptatibus libero numquam quos eum dicta eligendi fugit minima porro! Earum repudiandae mollitia esse eius!
+    </div>
+    <div class="col">
+      Не менее интересная история, захватывающая дух: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat doloribus deserunt, mollitia eligendi expedita minus. Aperiam voluptatem odit, officia quas laborum sapiente aspernatur itaque tempore eius animi laboriosam! Dolorum, perspiciatis.
+      Adipisci, optio debitis vitae vel, mollitia repellendus rerum, facere dicta ullam eaque possimus suscipit est ad tempora ex distinctio voluptate qui quis quidem modi nulla quia eveniet! Repellat, debitis fugit!
+      Ducimus rerum recusandae ipsum cupiditate! Et sunt quibusdam beatae hic, reprehenderit repellendus! Minus est minima, sint consequatur ipsum quisquam facere amet mollitia veniam ut molestias asperiores sapiente ducimus, perspiciatis laudantium.
+    </div>
+    <div class="col">
+      Самая интересная история, не похожая ни на первую, ни на вторую. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque saepe repellat eius illum molestias maxime voluptates hic nam earum! Quibusdam eos commodi magnam laboriosam recusandae! Minima nisi obcaecati vero voluptate?
+      Nesciunt, sit minus sapiente consectetur nulla voluptas assumenda ex eligendi porro magni quidem nihil dolorum ipsam ullam maxime provident praesentium dolorem debitis molestiae. Cumque modi beatae fugit deserunt molestiae qui?
+      Soluta aperiam molestias sunt eos magnam recusandae culpa facilis, possimus, harum, facere unde. Aut sint eaque accusamus quos animi? Fuga ad officiis, architecto possimus fugit corrupti animi alias aliquam odio.
+    </div>
+  </div>
+  </div>
+<!-- три колонки end -->
+<!-- блок с фоном start -->
+  <div class="col">
+    <div class="box">
+      <div class="fon">
+      <p class="shadowtext">Пара слов, чтоб понимать как обстоят дела</p>
+      </div>
+    </div>
+  </div>
+<!-- блок с фоном end -->
+<!-- contact start -->
+<div class="container">
+  <h2 class="text-center text-danger">связаться с нами</h2>
+  <div class="row">
+    <div class="col-md-5">
+    <h3>наши контакты</h3>
+    <h4>адрес</h4>
+    <p>г Москва, ул Академика Скрябина,д. 9, стр 4</p>
+    <h4>телефон</h4>
+    <a href="tel:+74952605289">+7(495)260-52-89</a>
+    <h4>e-mail:</h4>
+    <a href="mailto:hotline@eduprof.ru">hotline@eduprof.ru</a>
+    <h4>график работы</h4>
+    <p>очень насыщенный</p>
+    </div>
+    <div class="col-md-7">
+      <form action="">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="имя">
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" placeholder="e-mail">
+        </div>
+        <div class="form-group">
+          <textarea rows="2" class="form-control" placeholder="сообщение"></textarea>
+        </div>
+        <div class="form-group">
+          <input type="submit" class="form-control btn bg-info">
+        </div>
+      </form>
+      <div class="icon">
+        <i class="bi bi-balloon-heart-fill"><img src="icon/balloon-heart-fill.svg"></i>
+        <i class="bi bi-clipboard-heart"><img src="icon/clipboard-heart.svg"></i> 
+        <i class="bi bi-cup-hot"><img src="icon/cup-hot.svg"></i>
+        <i class="bi bi-github"><img src="icon/github.svg"></i>
+    </div>
+    <div class="row">
+      <div class="col-4 text-center"><span class="material-symbols-outlined">
+        home
+        </span></div>
+      <div class="col-4 text-center"><span class="material-symbols-outlined">
+        transcribe
+        </span></div>
+      <div class="col-4 text-center"><span class="material-symbols-outlined">
+        rocket_launch
+        </span></div>
+    </div>
+  </div>
+</div>
+<!-- contact end -->
+<!-- карта начало -->
+<div class="conteiner my-3">
+  <h3 class="text-center">схема проезда</h3>
+  <!-- <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3feb7b4befd3c38dbd9c6a60402ce43b00163d722e6e0b8e63ebc620abcff6e3&amp;width=100%25&amp;height=302&amp;lang=ru_RU&amp;scroll=true">   
+  </script> -->
+  <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3feb7b4befd3c38dbd9c6a60402ce43b00163d722e6e0b8e63ebc620abcff6e3&amp;width=100%25&amp;height=302&amp;lang=ru_RU&amp;scroll=true">  
+  </script>
+</div>
+<!-- карта конец -->
+<!--footer start-->
+  <footer>
+    <div class="container py-5"
+        <h5 class="text-center text-white border-info"> 2022 Все права,кроме моих,защищены © </h5>
+    </div>
+  </footer>
+  <!--footer end-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  </body>
+</html>
